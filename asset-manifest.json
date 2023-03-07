@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fullstack_beautybay/static/css/main.dfed7e1e.css",
-    "main.js": "/fullstack_beautybay/static/js/main.adb53893.js",
+    "main.js": "/fullstack_beautybay/static/js/main.3856cf65.js",
     "static/media/3.jpg": "/fullstack_beautybay/static/media/3.916c952897acb5af81d0.jpg",
     "index.html": "/fullstack_beautybay/index.html",
     "main.dfed7e1e.css.map": "/fullstack_beautybay/static/css/main.dfed7e1e.css.map",
-    "main.adb53893.js.map": "/fullstack_beautybay/static/js/main.adb53893.js.map"
+    "main.3856cf65.js.map": "/fullstack_beautybay/static/js/main.3856cf65.js.map"
   },
   "entrypoints": [
     "static/css/main.dfed7e1e.css",
-    "static/js/main.adb53893.js"
+    "static/js/main.3856cf65.js"
   ]
 }
