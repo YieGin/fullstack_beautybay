@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.Footer_main1{
+  background-color: rgb(213, 161, 255);
+  width: 80%;
+  height: 100%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+.Footer_main {
+  width: 100%;
+  display: flex;
+  color: rgb(0, 0, 0);
+  column-gap: 100px;
+  justify-content: center;
+}
+.Svg_footer {
+  margin-top: 1%;
+}
+.Footer_ul_1 {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  row-gap: 20px;
+}
+.Footer_h2_1 {
+  width: 300px;
+  color: rgb(0, 0, 0);
+  padding-top: 5%;
+}
+hr {
+  width: 100%;
+  border-color: rgb(67, 67, 67);
+}
+.Footer_svg {
+  display: flex;
+  column-gap: 10px;
+}
+.svg_footer_fill {
+  fill: rgb(0, 0, 0);
+}
+.Copyright {
+  padding-top: 5%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+.A-text {
+  color: inherit;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu_Footer {
+  display: flex;
+  text-align: justify;
+}
+
+.menu_Footer .A-text {
+  position: relative;
+  display: block;
+  text-align: justify;
+
+}
+
+.menu_Footer .A-text::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,#363636,#d900ff,#ff00bf);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px #fff;
+}
+
+.menu_Footer .A-text:hover::before {
+  transform: scaleX(1);
+}
+
+.menu_Footer[data-animation="to-left"] .A-text::before {
+  transform-origin: right;
+}
+
+.menu_Footer[data-animation="center"] .A-text::before {
+  transform-origin: center;
+}
+
+.menu_Footer[data-animation="bonus"] .A-text::before {
+  transform-origin: right;
+}
+
+.menu_Footer[data-animation="bonus"] .A-text:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
+}
+
+
+.Last_footer {
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.Last_footer > img {
+  cursor: pointer;
+}
